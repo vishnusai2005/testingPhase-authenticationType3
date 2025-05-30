@@ -1,0 +1,130 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "An Express instance should be exported from the 'app.js' file using the default export syntax",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request with path '/login/' should return 'Invalid user' text as a response for an unregistered user",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request with path '/login/' should return 'Invalid password' text as a response if the user provides an incorrect password",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request with path '/login/' should return JWT token as a response if the user provides correct credentials",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/' with token should return the list of all the states in the state table as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/:stateId/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/:stateId/' with token should return the details of a specific state in the state table as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/districts/:districtId/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/districts/:districtId/' with token should return the details of a specific district in the district table as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/:stateId/stats/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request with path '/states/:stateId/stats/' with token should return the statistics of a specific state as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request with path '/districts/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request with path '/districts/' with token should return 'District Successfully Added' text as a response to the success of the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the post request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request with path '/districts/:districtId/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request with path '/districts/:districtId/' with token should return 'District Details Updated' text as a response to the success of the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the put request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "The DELETE request with path '/districts/:districtId/' without token should return status code as '401' and 'Invalid JWT Token' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "The DELETE request with path '/districts/:districtId/' with token should return 'District Removed' text as a response to the success of the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCPIKNGV_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the delete request",
+      "errorMessages": []
+    }
+  ]
+}
